@@ -1,0 +1,41 @@
+{
+    "name": "firestark/ioc",
+    "version": "0.0.1",
+    "description": "Small wrapper around illuminate ioc container.",
+    "type": "library",
+    "keywords": [ "ioc" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aron Wouters",
+            "email": "firestark@mail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/container": "*"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+        	"ioc": "source"
+        },
+        "files": [
+        	
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+
+        },
+        "classmap": [
+
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev"
+}
